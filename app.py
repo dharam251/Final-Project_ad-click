@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # --- 1. Load the Saved ML Pipeline ---
-MODEL_FILENAME = 'ad_click_pipeline.pkl'
+MODEL_FILENAME = 'ad_click_bagging_pipeline.pkl'
 
 try:
     # Load the entire pipeline (preprocessor + model)
