@@ -1,5 +1,5 @@
 streamlit
 pandas
-numpy
-scikit-learn
+scikit-learn==1.6.1  # <-- FIXED: Explicitly set the version to match Colab
 joblib
+numpy
